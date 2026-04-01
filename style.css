@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #000000;
     
 }
 
@@ -11,8 +12,8 @@ body {
     padding: 10px 50px;
 }
 .logo {
-    width:  150px;
-    height: 150px;
+    width:  400px;
+    height: 300px;
 }
 .header-container {
     display: flex;
@@ -25,6 +26,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 0 10px;
+    font-size: 25px;
 }
 
 .header-Links a:hover {
@@ -38,6 +40,7 @@ body {
     border: none;
     border-radius: 50px;
     padding: 5px 15px;
+    font-size: 25px;
 }
 
 .btn:hover {
@@ -49,6 +52,27 @@ body {
     text-align: center;
     color: #1affff;
     background-color: #000000;
-    padding: 50px;
+        padding: 10px 0px 20px 20px;
 
+}
+
+.landing-page-texte h1 {
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.landing-page-texte h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card-Name {
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
 }
